@@ -24,7 +24,9 @@ function App() {
     if(saisie.length>0){
       setList([...list,saisie]);
       //vider saisie;
-      //vider le champ
+      setSaisie("");
+      //vider le champ???
+
     }
   }
   return (
@@ -42,8 +44,7 @@ function App() {
               ></Button>
           </View>
           <Result></Result>
-          <Text>{list}</Text>
-        </TodoListContext.Provider>
+          </TodoListContext.Provider>
       </ScrollView>
     </SafeAreaView>
   );
