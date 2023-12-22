@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import {
   Button,
@@ -15,18 +15,23 @@ import Title from './components/Title/Title';
 import Champ from './components/Champ/Champ';
 import { Result } from './components/Result/Result';
 import TodoListContext from './TodoListContext';
-
-
+import { MMKVLoader, useMMKVStorage } from 'react-native-mmkv-storage';
+const storage = new MMKVLoader().initialize();
 function App() {
-  const [list, setList] = React.useState([]);
+
+  const [list, setList] = useMMKVStorage('list', storage, []);
   const [saisie,setSaisie] = React.useState("");
+  /* useEffect(()=>{
+    if(listStorage){
+      console.dir(listStorage);
+    }
+  },[]) */
   const handlePress = ()=>{
     if(saisie.length>0){
       setList([...list,saisie]);
       //vider saisie;
       setSaisie("");
       //vider le champ???
-
     }
   }
   return (
