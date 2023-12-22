@@ -1,6 +1,22 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# Getting Started
+![Logo](./gitimg/tryharder.jpg)
+
+
+# Le Project
+
+Ce projet a été rélisé lors d'une cession de formation sous React Native pour la formation DWWM 2023 du CEPPIC
+## Authors
+
+Hello my name is Julien i'm developper front beginer 😄🧜‍♀️
+
+
+- [Julien sur Github](https://www.github.com/JulienTouchard)
+- [Julien sur LinkedIn](www.linkedin.com/in/) 
+
+
+
+
+## Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
@@ -77,3 +93,62 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
+
+
+## Badges
+
+Add badges from somewhere like: [shields.io](https://shields.io/)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+
+## Demo
+
+Insert gif or link to demo
+
+
+## Documentations
+
+[https://reactnative.dev/](https://reactnative.dev/)
+
+[https://reactnativepaper.com/](https://reactnativepaper.com/)
+
+[https://docs.swmansion.com/react-native-reanimated/](https://docs.swmansion.com/react-native-reanimated/)
+
+
+
+## Features
+
+- Light/dark mode toggle
+- Live previews
+- Fullscreen mode
+- Cross platform
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## 🛠 Skills
+Javascript, HTML, CSS...
+
+
+## Environment Variables
+
+Pour tester ce projet et le compiler vous aurez besoin d'éditer les variables d'environnement du Sytème (ici windows 11). Pour cela : 
+- Faites un click droit sur votre menu demarer.
+- Selectionnez "Système".
+- Ouvrez "Parametres avancés du systeme".
+- Cliquez sur "Variables d'environnement..."
+- Dans la fenetre "Variables Systeme" cliquez sur "Nouvelle..."
+- La première devra avoir pour nom "ANDROID_HOME" et pour valeur "C:\Users\votre_nom_d_utilisateur\AppData\Local\Android\Sdk".
+- La seconde "JAVA_HOME" et "C:\Program Files\Java\jdk-17"
+- Enfin vous devrez ajouter un nouvelle entrée à la variable Path : "C:\Users\votre_nom_d_utilisateur\AppData\Local\Android\Sdk\platform-tools"
+
+
