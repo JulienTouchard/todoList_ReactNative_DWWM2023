@@ -21,11 +21,11 @@ function App() {
 
   const [list, setList] = useMMKVStorage('list', storage, []);
   const [saisie,setSaisie] = React.useState("");
-  /* useEffect(()=>{
-    if(listStorage){
-      console.dir(listStorage);
-    }
-  },[]) */
+  const deleteItem = (index)=>{
+    let listTmp = list;
+    listTmp.splice(index,1);
+    setList(listTmp);
+  }
   const handlePress = ()=>{
     if(saisie.length>0){
       setList([...list,saisie]);
@@ -38,7 +38,7 @@ function App() {
     <SafeAreaView>
       <ScrollView
         contentInsetAdjustmentBehavior="automatic">
-        <TodoListContext.Provider value={{list,setList,saisie,setSaisie}}>
+        <TodoListContext.Provider value={{list,setList,saisie,setSaisie,deleteItem}}>
           <View>
             <Title></Title>
             <Champ></Champ>
