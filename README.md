@@ -11,10 +11,7 @@ Hello 😄! Ce projet a été rélisé lors d'une cession de formation sous Reac
 Hello my name is Julien :
 
 
-- [Julien sur Github](https://www.github.com/JulienTouchard)
-- [Julien sur LinkedIn](www.linkedin.com/in/julien-touchard-dev) 
-
-
+- [LinkedIn](https://www.linkedin.com/in/julien-touchard-dev)
 
 
 ## Getting Started
