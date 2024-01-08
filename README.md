@@ -4,14 +4,15 @@
 
 # Le Project
 
-Ce projet a été rélisé lors d'une cession de formation sous React Native pour la formation DWWM 2023 du CEPPIC
+Hello 😄! Ce projet a été rélisé lors d'une cession de formation sous React Native pour la formation CEPPIC DWWM 2023.
+
 ## Authors
 
-Hello my name is Julien i'm developper front beginer 😄🧜‍♀️
+Hello my name is Julien :
 
 
 - [Julien sur Github](https://www.github.com/JulienTouchard)
-- [Julien sur LinkedIn](www.linkedin.com/in/) 
+- [Julien sur LinkedIn](www.linkedin.com/in/julien-touchard-dev) 
 
 
 
@@ -94,23 +95,6 @@ To learn more about React Native, take a look at the following resources:
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
 
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
-
-
-## Badges
-
-Add badges from somewhere like: [shields.io](https://shields.io/)
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-
-
-## Demo
-
-Insert gif or link to demo
-
 
 ## Documentations
 
@@ -136,7 +120,7 @@ Insert gif or link to demo
 
 
 ## 🛠 Skills
-Javascript, HTML, CSS...
+React, ReactNative, Javascript, HTML, CSS...
 
 
 ## Environment Variables
